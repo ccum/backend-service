@@ -1,0 +1,27 @@
+{
+  "name": "borrador-back-peru",
+  "version": "1.0.0",
+  "description": "proyecto final TechU Peru",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon appv1.js",
+    "pro": "node appv1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "techU",
+    "BBVA",
+    "Peru"
+  ],
+  "author": "Cesar Cueva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request-json": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
