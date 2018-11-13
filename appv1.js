@@ -11,6 +11,14 @@ var API_KEY = "apiKey=921wtWhfU-2X-4oesZqOCJvxE0rzlSC_";
 
 app.use(bodyParser.json());
 
+
+//npm install cors --save
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 //GET users
 
 app.get(URLbase + 'users', function(req, res){
